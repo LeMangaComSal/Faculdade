@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class teste {
 
-    public static void main(String args[]) {
+    public static void main(String [] args) {
         Scanner teclado = new Scanner(System.in);
         int numeroPalpite = 0;
         int numeroAleatorio = new Random().nextInt(10) + 1;

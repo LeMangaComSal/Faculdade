@@ -1,7 +1,7 @@
 import static java.lang.System.out;
 import java.util.Scanner;
 
-class lalal{
+class velocidade {
     static void main() {
         Scanner teclado = new Scanner (System.in);
 
@@ -16,7 +16,7 @@ class lalal{
 
         double resultado = distancia/tempo;
 
-        out.printf("A velocidade média foi de: %.2fKm/h", resultado);
+        out.printf("A velocidade média foi de: 2f%.Km/h", resultado);
 
 
     }
