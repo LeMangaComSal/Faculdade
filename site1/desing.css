@@ -1,21 +1,26 @@
 body {
-    background-color: antiquewhite;
+    background-color: #b6bc9b;
+    display: flex; /* Defini o layout da pagina como FlexBox */
+    justify-content: center; /* Centraliza o texto */
+    align-items: center; /* Centraliza o conteúdo da pagina na vertical */
 }
 /* Colocar . pra referir uma id e # para referir a uma classe da div*/
 hr {
-   width: 550px;
+    margin: 50px auto 50px auto;
+    width: 550px;
 }
 
 .Teste1 h1 {   
      margin-left: auto;
      margin-right: auto;
-     background-color: rgba(0, 0, 0, 0.251);
+     background-color: rgba(68, 68, 68, 0.348);
      width: 290px;
-     border-radius: 4px;
-     border: solid rgba(59, 45, 27, 0.514);
+     padding: 20px 120px;
+     border-radius: 20px;
      text-align: center;
      font-size: xx-large;
      font-family:Arial, Helvetica, sans-serif;
+     color: #dff18b;
 }
 .Teste1 p {
     text-align: center;
@@ -29,12 +34,29 @@ hr {
     border-radius: 10%;
 }
 
-.Teste1 button {
+.Teste1 #insta {
     background-color: rgb(255, 255, 255);
     font-size: 10px;
     border-radius: 5px;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 40px;
     display: block;
     text-align: center;
-    margin: 0 auto 10px auto;
+    margin: 10px auto 10px auto;
+    border: none;
 }
+.Teste1 #git {
+    background-color: rgb(255, 255, 255);
+    font-size: 10px;
+    border-radius: 5px;
+    padding: 10px 50px;
+    display: block;
+    text-align: center;
+    margin: 10px auto 10px auto;
+    border: none;
+}
+
+.Teste1 a {
+    text-decoration: none;
+    color: inherit;
+}
+
